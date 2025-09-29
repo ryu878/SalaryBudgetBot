@@ -1,6 +1,5 @@
-# Byte-compiled / optimized / DLL files
+*.json
 _*
-.vscode
 __pycache__/
 *.py[codz]
 *$py.class
@@ -10,6 +9,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.vscode
 build/
 develop-eggs/
 dist/
