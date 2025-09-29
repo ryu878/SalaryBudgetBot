@@ -2,6 +2,7 @@ import telebot
 import json
 from datetime import datetime, timedelta
 from _config import API_TOKEN, ALLOWED_USERS
+import time
 
 
 
@@ -123,5 +124,12 @@ def history(message):
     bot.reply_to(message, "\n".join(lines))
 
 # ---- Run ----
-print("Bot is running...")
-bot.infinity_polling()
+print(f"Bot {NAME} {VER} is running...")
+
+
+while True:
+    try:
+        bot.infinity_polling(timeout=10, long_polling_timeout=5)
+    except Exception as e:
+        print(f"⚠️ Polling error: {e}")
+        time.sleep(5)  # wait before retry
