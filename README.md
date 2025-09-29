@@ -32,7 +32,7 @@ A personal finance Telegram bot built with pyTelegramBotAPI . It helps you track
 
 1. Clone the repo:
    ```
-   git clone https://github.com/yourname/SalaryBudgetBot.git
+   git clone https://github.com/ryu878/SalaryBudgetBot.git
    cd SalaryBudgetBot
    ```
 2. Install dependencies:
