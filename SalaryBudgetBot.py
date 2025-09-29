@@ -7,7 +7,7 @@ import time
 
 
 NAME = 'SalaryBudgetBot'
-VER = '29.09.2025'
+VER = '29092025'
 
 bot = telebot.TeleBot(API_TOKEN)
 
