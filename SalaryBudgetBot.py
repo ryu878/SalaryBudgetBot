@@ -1,23 +1,16 @@
 import telebot
 import json
-<<<<<<< HEAD
 from datetime import datetime, timedelta
-from _config import API_TOKEN
+from _config import API_TOKEN, ALLOWED_USERS
 
 
 
 NAME = 'SalaryBudgetBot'
 VER = '29.09.2025'
-=======
-from datetime import datetime
->>>>>>> 5b20ba2733240675b8e625a57e353bf119c242fb
 
 bot = telebot.TeleBot(API_TOKEN)
 
 DATA_FILE = "finance.json"
-
-# ---- Allowed Users ----
-ALLOWED_USERS = [123456789, 987654321]  # replace with your Telegram user IDs
 
 # ---- Helpers ----
 def is_allowed(user_id):
