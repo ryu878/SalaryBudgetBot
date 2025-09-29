@@ -16,6 +16,7 @@ A personal finance Telegram bot built with pyTelegramBotAPI . It helps you track
 💾 Stores data persistently in a JSON file
 
 
+---
 📖 Example Usage
 
 ```
