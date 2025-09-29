@@ -1,8 +1,13 @@
 import telebot
 import json
 from datetime import datetime, timedelta
+from _config import API_TOKEN
 
-API_TOKEN = "YOUR_BOT_TOKEN"
+
+
+NAME = 'SalaryBudgetBot'
+VER = '29.09.2025'
+
 bot = telebot.TeleBot(API_TOKEN)
 
 DATA_FILE = "finance.json"
