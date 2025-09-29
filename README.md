@@ -45,5 +45,5 @@ A personal finance Telegram bot built with pyTelegramBotAPI . It helps you track
 4. Replace YOUR_BOT_TOKEN in bot.py with your token.
 5. Run the bot:
   ```
-python bot.py
+python SalaryBudgetBot.py
 ```
