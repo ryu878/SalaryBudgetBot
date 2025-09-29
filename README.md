@@ -26,3 +26,24 @@ A personal finance Telegram bot built with pyTelegramBotAPI . It helps you track
 /balance
 /history
 ```
+
+---
+⚙️ Installation
+
+1. Clone the repo:
+   ```
+   git clone https://github.com/yourname/SalaryBudgetBot.git
+   cd SalaryBudgetBot
+   ```
+2. Install dependencies:
+
+   ```
+   pip install pytelegrambotapi
+   ```
+
+3. Create a Telegram bot with BotFatherand get the API token.
+4. Replace YOUR_BOT_TOKEN in bot.py with your token.
+5. Run the bot:
+  ```
+python bot.py
+```
