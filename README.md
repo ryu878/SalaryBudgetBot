@@ -1,4 +1,4 @@
-# SalaryBudgetBot
+# Salary Budget Bot
 A personal finance Telegram bot built with pyTelegramBotAPI . It helps you track income, spending, and daily budgets between your paydays.
 
 ---
@@ -47,6 +47,8 @@ A personal finance Telegram bot built with pyTelegramBotAPI . It helps you track
   ```
 python SalaryBudgetBot.py
 ```
+
+***
 
 ## 📄 License
 MIT License - Feel free to modify and distribute.
