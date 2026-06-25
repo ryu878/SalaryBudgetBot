@@ -65,32 +65,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check issu
 >
 > Under no circumstances will I be responsible or liable for any claims, damages, losses, expenses, costs, or liabilities of any kind, including but not limited to direct or indirect damages for loss of profits.
 
-***
-
-## 📌 Quantitative Researcher | Algorithmic Trader | Trading Systems Architect
-
-Quantitative researcher and trading systems engineer with end-to-end ownership of systematic strategies — from research and statistical validation to low-latency execution and production deployment.
-
-Core focus areas:
-- Systematic strategy design and validation
-- Market microstructure analysis (order book dynamics, liquidations, volume, delta, liquidity, spread behavior, funding)
-- Backtesting framework development (tick-level and historical data)
-- Execution engine architecture and order lifecycle management
-- Real-time market data processing
-- Risk-aware system design
-- Production-grade trading infrastructure (24/7 environments)
-
-Experience across crypto (CEX, DEX), FX, and exchange-traded markets.
-
-## Technical Stack
-
-- Languages: Python, C++, MQL5
-- Execution & Connectivity: REST, WebSocket, FIX
-- Infrastructure: Linux, Docker, Redis, PostgreSQL, ClickHouse
-- Analytics: NumPy, Pandas, custom backtesting frameworks
-
-## Contact
-
-Email: ryu8777@gmail.com
-
-***
